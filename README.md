@@ -39,6 +39,14 @@ Test verisi (100 örnek) üzerinde elde edilen nihai performans karşılaştırm
 | **Random Forest** | 0.91 | 0.90 | **0.9348** | 0.8600 | 0.8958 | **0.9766** | **47** | **3** | 7 | 43 |
 
 ---
+## 📌 Model Başarı Özeti ve Seçim Gerekçesi
+- **Genel Doğruluk (Test Accuracy)**: KNN (K=5) modeli 0.92 (%92) doğruluk oranı ile veri seti üzerinde en yüksek genel başarıyı gösteren modeldir.
+
+- **Hassasiyet (Test Precision)**: KNN modeli 0.9200 başarı oranı vererek "Ayrılır" olarak tahmin ettiği müşterilerin %92'sinde isabet sağlamıştır.
+
+- **Duyarlılık / Yakalama Oranı (Test Recall)**: Churn analizinde en kritik kriter olan ayrılacak müşterileri yakalama yeteneğinde KNN, 0.9200 oranı ile diğer tüm modellerin önündedir.
+
+- **Denge Metriği (Test F1-Score)**: Precision ve Recall metriklerinin harmonik ortalaması olan F1-Score değerinde KNN, 0.9200 ile en yüksek dengeli skora ulaşmıştır.
 
 ## 📈 Confusion Matrix (Karmaşıklık Matrisi) Görselleştirmesi
 
