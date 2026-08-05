@@ -44,7 +44,7 @@ Test verisi (100 örnek) üzerinde elde edilen nihai performans karşılaştırm
 
 Modellerin Test kümesi üzerindeki tahmin dağılımlarını gösteren matris grafiği:
 
-![Confusion Matrix](confusion_matrices.png)
+![Confusion Matrix](Confusion_matrix.png)
 
 ---
 
